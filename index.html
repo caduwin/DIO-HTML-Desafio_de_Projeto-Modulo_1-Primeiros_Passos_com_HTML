@@ -1,0 +1,403 @@
+<!--Utilizar todas as tags explicadas nas aulas: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, <mark>, <small>, <i>, <b>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>...
+Utilizar novas tags sugeridas: <font>, <del>, <p>, <abbr> (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto)-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio: Módulo 1 - Primeiros Passos com HTML</title>
+  </head>
+
+  <body>
+    <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+      <li><a href="#historia">História da Web</a></li>
+      <li><a href="#nomes">Nomes importantes</a></li>
+      <li><a href="#computadores">Primeiros Computadores</a></li>
+      <li>
+        <a href="#clients_servers">Client x Server: entenda o significado</a>
+      </li>
+      <li><a href="#linguagem">Linguagem de Programação</a></li>
+      <li><a href="#tags">Tags</a></li>
+      <li><a href="#atributos">Atributos das Tags</a></li>
+      <li><a href="#saiba_mais">Saiba Mais</a></li>
+    </ul>
+    <hr />
+
+    <h2 id="historia">História da Web</h2>
+    <p>
+      A história da internet começou nos anos 60, quando o Departamento de
+      Defesa dos EUA lançou o projeto ARPANET para estabelecer uma rede de
+      comunicação para conectar computadores. A primeira conexão ocorreu em
+      1969, seguida pelo desenvolvimento do protocolo TCP/IP nos anos 70, que
+      permitiu a interconexão de diferentes redes. Nos anos 80 e 90, a internet
+      expandiu-se rapidamente e tornou-se acessível ao público em geral. O
+      surgimento da World Wide Web em 1991, criada por Tim Berners-Lee,
+      revolucionou a forma como as informações eram compartilhadas,
+      possibilitando o acesso a páginas e conteúdos através de navegadores. A
+      partir daí, a internet explodiu e se tornou uma ferramenta essencial para
+      a comunicação, compras, estudos e diversão em todo o mundo.
+    </p>
+
+    <h3 id="nomes">Nomes Importantes</h3>
+    <ul>
+      <li>
+        <p>
+          <b><u>Grace Murray Hopper</u></b> foi uma figura proeminente e
+          pioneira na história da computação e programação. Algumas das
+          contribuições notáveis de Grace Murray Hopper incluem:
+        </p>
+      </li>
+      <ul>
+        <li>Trabalhou na programação do Mark I</li>
+        <li>
+          Desenvolvimento do
+          <abbr
+            title="Common Business-Oriented Language (Linguagem Comum Orientada para Negócios)"
+            >COBOL</abbr
+          >
+        </li>
+        <li>Popularização do termo "bug"</li>
+      </ul>
+      <br />
+
+      <li>
+        <p>
+          <b><u>Joseph Carl Robnett Licklider</u></b> conhecido como J.C.R.
+          Licklider ou simplesmente "Lick," foi um visionário cientista da
+          computação e psicólogo norte-americano. Algumas das contribuições
+          notáveis de J.C.R. Licklider incluem:
+        </p>
+      </li>
+      <ul>
+        <li>
+          Licklider foi uma figura fundamental no desenvolvimento do projeto
+        </li>
+        <li>
+          Pioneiro na Teoria do Processamento Humano-Computador, ou seja, da
+          interação entre seres humanos e computadores
+        </li>
+        <li>
+          Previsão do uso dos computadores em rede: Em um memorando de 1960,
+          Licklider descreveu uma rede global de computadores, prevendo um
+          futuro onde as pessoas poderiam acessar informações e programas de
+          qualquer lugar, chamando isso de "rede galáctica".
+        </li>
+      </ul>
+      <br />
+
+      <li>
+        <p>
+          <p><b><u>Robert Elliot Kahn</u></b> é um renomado cientista da computação
+          e um dos criadores fundamentais da arquitetura da Internet. Algumas
+          das contribuições notáveis de Robert E. Kahn incluem:</p>
+        </p>
+      </li>
+      <ul>
+        <li>
+          Teve um papel significativo no desenvolvimento do
+          <abbr
+            title="Advanced Research Projects Agency Network (Rede da Agência de Projetos de Pesquisa Avançada)"
+            >ARPANET</abbr
+          >
+        </li>
+        <li>
+          Co-desenvolvimento do protocolo
+          <abbr title="Transmission Control Protocol/Internet Protocol"
+            >TCP/IP</abbr
+          >
+        </li>
+        <li>
+          Co-fundou a
+          <abbr title="Corporation for National Research Initiatives">CNRI</abbr
+          >, uma organização de pesquisa sem fins lucrativos dedicada a avanços
+          tecnológicos, incluindo aprimoramentos contínuos na arquitetura da
+          internet.
+        </li>
+      </ul>
+      <br />
+
+      <li>
+        <p><b><u>Tim Berners-Lee</u></b> é um cientista da computação e engenheiro
+        britânico, amplamente conhecido por ser o inventor da World Wide Web
+        (WWW), uma das maiores inovações tecnológicas da era moderna. Algumas
+        das contribuições notáveis de Tim Berners-Lee incluem:</p>
+      </li>
+      <ul>
+        <li>Inventor da World Wide Web (WWW)</li>
+        <li>
+          Inventor do primeiro navegador web, chamado "WorldWideWeb" (mais tarde
+          renomeado para Nexus)
+        </li>
+        <li>
+          Desenvolveu três tecnologias fundamentais:
+          <abbr title="Hypertext Markup Language">HTML</abbr>,
+          <abbr title="Uniform Resource Identifier">URI</abbr> e
+          <abbr title="Hypertext Transfer Protocol">HTTP</abbr>
+        </li>
+      </ul>
+    </ul>
+    <small><a href="#topo">voltar</a></small>
+
+    <h3 id="computadores">Primeiros computadores</h3>
+    <p>
+      Os primeiros computadores criados são considerados máquinas muito
+      diferentes dos computadores modernos que conhecemos hoje. Eles foram
+      projetados e construídos principalmente para fins específicos e tarefas
+      limitadas. Alguns dos primeiros computadores notáveis incluem:
+    </p>
+    <ol>
+      <li>
+        <i><b>Colossus</b></i
+        >: Construído durante a Segunda Guerra Mundial na década de 1940, o
+        Colossus foi o primeiro computador eletrônico digital e foi utilizado
+        pelo governo britânico para decifrar códigos alemães.
+      </li>
+      <br />
+
+      <li>
+        <i
+          ><b
+            ><abbr title="Electronic Numerical Integrator and Computer"
+              >ENIAC</abbr
+            ></b
+          ></i
+        >: Desenvolvido nos Estados Unidos durante a década de 1940, o ENIAC foi
+        o primeiro computador eletrônico de uso geral. Era enorme e ocupava uma
+        sala inteira, usado principalmente para cálculos balísticos.
+      </li>
+      <br />
+
+      <li>
+        <i
+          ><b
+            ><abbr title="Electronic Delay Storage Automatic Calculator"
+              >EDSAC</abbr
+            ></b
+          ></i
+        >: Construído no Reino Unido no final da década de 1940, foi um dos
+        primeiros computadores a serem programados usando um software armazenado
+        em memória.
+      </li>
+      <br />
+
+      <li>
+        <i><b>Manchester Mark 1</b></i
+        >: Construído no Reino Unido em 1949, foi um dos primeiros computadores
+        a usar memória RAM.
+      </li>
+      <br />
+
+      <li>
+        <i
+          ><b
+            ><abbr title="Universal Automatic Computer I">UNIVAC I</abbr></b
+          ></i
+        >: Construído no início da década de 1950, foi o primeiro computador
+        comercialmente produzido e vendido nos Estados Unidos. Ele também foi
+        utilizado para fins de processamento de dados e cálculos complexos.
+      </li>
+    </ol>
+    <small><a href="#topo">voltar</a></small>
+
+    <br />
+
+    <h2 id="clients_servers">Client x Server: entenda o significado</h2>
+    <p>
+      Em se tratando de T.I., o conceito de <i><b>Client</b></i> (cliente) pode
+      ser popularmente definido por todo aquele dispositivo, aplicativo ou
+      software que solicita e consome determinado serviço ou recurso a um server
+      (servidor). Por sua vez, podemos definir que
+      <i><strong>Server</strong></i> é o dispositivo, aplicativo ou software que
+      presta o serviço solicitado ao cliente. Este serviço é prestado através de
+      uma rede de dados, podendo esta ser interna (intranet) ou externa
+      (internet).</p>
+      
+      
+      <small><a href="#topo">voltar</a></small>
+    <br>
+    
+    <h2 id="linguagem">Linguagem de Programação</h2>
+    <p>
+      Uma linguagem de programação é um conjunto de regras e símbolos utilizados
+      para escrever algoritmos e instruções que um computador pode entender e
+      executar. Ela serve como uma forma intermediária de comunicação entre
+      humanos e máquinas, permitindo que os programadores expressem suas ideias
+      e soluções em um formato compreensível para o computador.
+    </p>
+
+    <p>
+      Existem diversas linguagens de programação, entre elas, podemos destacar
+      algumas das mais utilizadas: Python, Java, C++, JavaScript, C#, Ruby, PHP,
+      entre outras. Cada uma tem suas vantagens e desvantagens, sendo mais
+      adequada para certos tipos de tarefas e projetos específicos.
+    </p>
+
+    <blockquote>
+      <p>
+        "Cada linguagem de programação é uma ferramenta para a realização de um
+        domínio específico de conhecimento ou resolução de problemas."
+      </p>
+      <footer>
+        Alan J. Perlis, cientista da computação e primeiro vencedor do Prêmio
+        Turing.
+      </footer>
+    </blockquote>
+
+    <small><a href="#topo">voltar</a></small>
+
+    <h2 id="tags">Tags</h2>
+    <p>
+      Tags são elementos especiais usados em linguagens de marcação para
+      identificar e definir partes específicas de um documento ou código. As
+      tags são usadas para fornecer estrutura e significado aos conteúdos
+      presentes no documento, permitindo a formatação, organização e
+      apresentação adequada dos dados.
+    </p>
+    <p>
+      As tags geralmente são escritas entre colchetes ("<" e ">") e podem conter
+      palavras-chave ou comandos que indicam a função daquele elemento no
+      documento.
+    </p>
+    <p>Exemplos de tag e seu significado:</p>
+    <ul>
+      <li>
+        <mark>&lt;<del>font</del>&gt;</mark> usada para especificar a face da
+        fonte, o tamanho da fonte e a cor do texto. <sup>1</sup>
+      </li>
+      <li>
+        <mark>&lt;h1&gt;</mark> usada para definir o cabeçalho de nível 1 em uma
+        página web, ela representa o título principal ou o cabeçalho mais
+        importante do conteúdo.<sub>2</sub>
+      </li>
+      <li>
+        <mark>&lt;h2&gt;</mark> usada para definir um cabeçalho de nível 2 em
+        uma página web, la representa um título secundário, sendo ligeiramente
+        menos importante do que o &lt;h1&gt;, mas ainda relevante em relação ao
+        conteúdo.
+      </li>
+      <li>
+        <mark>&lt;a&gt;</mark> usada para criar links e âncoras para outras
+        páginas ou recursos.
+      </li>
+      <li><mark>&lt;img&gt;</mark> usada para inserir imagens na página.</li>
+      <li>
+        <mark>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</mark> usadas para criar listas
+        não ordenadas (bulleted), listas ordenadas (numbered) e itens de lista,
+        respectivamente.
+      </li>
+      <li><mark>&lt;table&gt;</mark> usada para criar tabelas.</li>
+    </ul>
+    <small><a href="#topo">voltar</a></small>
+
+    <h4 id="atributos">Atributos das Tags</h4>
+
+    <p>
+      Atributos em HTML são informações adicionais que podemos adicionar a
+      elementos das páginas da web. Eles são como etiquetas especiais que
+      fornecem mais detalhes sobre esses elementos.
+    </p>
+    <p>
+      Por exemplo, quando usamos a tag de imagem <img />, podemos adicionar
+      atributos como "src" para indicar o caminho da imagem, "alt" para dar uma
+      descrição caso a imagem não seja exibida, e "width" e "height" para
+      ajustar o tamanho da imagem.
+    </p>
+    <p>
+      Esses atributos nos permitem personalizar como os elementos aparecem na
+      página ou como eles se comportam. Podemos também adicionar estilos usando
+      atributos, como a cor de fundo de uma seção, ou criar botões interativos
+      que reagem quando são clicados.
+    </p>
+    <p>
+      Os atributos são muito úteis para tornar nossas páginas web mais bonitas e
+      interativas, e ajudam os mecanismos de busca e leitores de tela a entender
+      melhor o conteúdo do nosso site.
+    </p>
+    <p>Alguns dos principais atributos amplamente utilizados são:</p>
+    <ul>
+      <li>
+        Atributo <b>src</b> (source): utilizado na tag &lt;img&gt; para
+        especificar o caminho (URL) da imagem a ser exibida na página.
+      </li>
+      <li>
+        Atributo <b>alt</b> (alternative text): utilizado na tag &lt;img&gt;
+        para fornecer uma descrição alternativa da imagem para acessibilidade
+        (quando a imagem não é carregada ou para usuários com deficiência
+        visual).
+      </li>
+      <li>
+        Atributo <b>href</b> (hypertext reference): utilizado na tag &lt;a&gt;
+        (link) para especificar o URL de destino do link.
+      </li>
+      <li>
+        Atributo <b>class</b>: utilizado em várias tags para definir uma ou mais
+        classes, que podem ser usadas para aplicar estilos CSS ou selecionar
+        elementos com JavaScript.
+      </li>
+      <li>
+        Atributo <b>id</b>: utilizado para identificar exclusivamente um
+        elemento na página, permitindo que seja referenciado por estilos ou
+        scripts.
+      </li>
+      <li>
+        Atributo <b>style</b>: utilizado em várias tags para aplicar estilos CSS
+        inline diretamente ao elemento.
+      </li>
+    </ul>
+    <p>
+      Esses são apenas alguns exemplos dos principais atributos em HTML. Há
+      muitos outros atributos disponíveis, cada um com seu propósito específico,
+      permitindo a criação de páginas web mais dinâmicas, acessíveis e
+      estilizadas.
+    </p>
+    <p>
+      <small><a href="#topo">voltar</a></small>
+    </p>
+
+    <h3 id="saiba_mais">Saiba Mais</h3>
+    <ul>
+      <li>
+        <a href="https://conceito.de/cliente-servidor" target="_blank"
+          >Client x Server</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://kenzie.com.br/blog/linguagem-de-programacao/"
+          target="_blank"
+          >Linguagem de Programação</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos#:~:text=Atributos%20HTML%20s%C3%A3o%20palavras%20especiais,um%20campo%20de%20texto%2C%20etc%E2%80%A6"
+          target="_blank"
+          >Tag's</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://hcode.com.br/blog/html5-guia-completo-02-o-que-sao-atributos"
+          target="_blank"
+          >Atributos das Tags</a
+        >
+      </li>
+    </ul>
+
+    <small><a href="#topo">voltar</a></small>
+
+    <hr />
+    <small>
+      <sup>1</sup> Esta tag <u>deichou</u> de ser usada a partir do HTML5.
+      <br />
+      <sub>2</sub> Esta tag possui 6 níveis diferentes, iniciando no número 1 e
+      seguindo até o número 6 (h1, h2, h3, h4, h5 e h6) conforme seu grau de
+      importância. <br />
+    </small>
+  </body>
+</html>
