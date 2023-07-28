@@ -1,6 +1,8 @@
-# DIO-Trilha_HTML-Desafio_de_Projeto-Modulo_1-Primeiros_Passos_com_HTML
+<h1>DIO-Trilha_HTML-Desafio_de_Projeto-Modulo_1-Primeiros_Passos_com_HTML</h1>h1>
 
 Este é meu primeiro projeto da Formação HTML Web Developer.
+
+<p><b>Desafio do Módulo 1</b></p>
 
 <p>Escopo do Projeto:</p>
 <p>Elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:<br>
