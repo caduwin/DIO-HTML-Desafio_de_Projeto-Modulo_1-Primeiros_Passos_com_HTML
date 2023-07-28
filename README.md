@@ -1,4 +1,4 @@
-<h1>DIO-Trilha_HTML-Desafio_de_Projeto-Modulo_1-Primeiros_Passos_com_HTML</h1>h1>
+<h1>DIO-Trilha_HTML-Desafio_de_Projeto-Modulo_1-Primeiros_Passos_com_HTML</h1>
 
 Este é meu primeiro projeto da Formação HTML Web Developer.
 
