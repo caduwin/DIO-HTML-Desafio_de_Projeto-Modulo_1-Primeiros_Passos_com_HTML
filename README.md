@@ -2,7 +2,7 @@
 
 Este é meu primeiro projeto da Formação HTML Web Developer.
 
-<p><b><u>Desafio do Módulo 1</u></b></p>
+<p><b><i>Desafio do Módulo 1</i></b></p>
 
 <p>Escopo do Projeto:</p>
 <p>Elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:<br>
